@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--
+	Aerial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+  <head>
+    <title>Untitled</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body class="is-preload">
+    <div id="wrapper" style="background-image: url('/assets/css/images/intro.jpeg');">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+  
+      <nav style="background-color: black">
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html" style="color:palevioletred;font-weight: bold;">Main Page</a></li>
+            <li><a href="intro.html" style="color:palevioletred;font-weight: bold;">Intro</a></li>
+            <li><a href="skills.html" style="color:palevioletred;font-weight: bold;">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="grid">
+        <header class="header" style ='height:110px; color:cornflowerblue'>My Projects</header>
+        <div class="panel">
+          <img
+            style="height: 114px; width: 260px"
+            src="/assets//css/images/avengers.jpg"
+          />
+          <a href="https://perkea.github.io/battle-of-the-superheroes/"
+            ><span>Battle of the Superheroes</span>
+          </a>
+        </div>
+        <div class="panel">
+          <img
+            style="height: 114px; width: 260px"
+            src="/assets//css/images/cake4.jpg"
+          />
+          <a href="http://piece-of-cake1.herokuapp.com/login">
+          <span>Piece of Cake</span></a>
+        </div>
+        <div class="panel">
+          <img
+            style="height: 114px; width: 260px"
+            src="/assets//css/images/coco.jpeg"
+          />
+          <a href="https://lights-out-p3.netlify.app/"><span>Lights Out</span></a>
+          
+        </div>
+        <div class="panel">
+          <img
+            style="height: 114px; width: 260px"
+            src="/assets//css/images/techtalk.jpg"
+          />
+          <a href="https://tech-talk-v2.herokuapp.com/">
+          <span>Tech Talk</span></a>
+        </div>
+
+        <!-- <footer id="footer">
+                <span class="copyright">&copy; Untitled.</span>
+            </footer> -->
+      </div>
+      <!-- <div class="row">
+        <div class="col s4">
+          <div class="card medium" style="height: 500px">
+            <div class="card-image">
+              <img src="/assets//css/images/avengers.jpg" />
+              <span class="card-title">Battle of the Superheroes</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+                Battle of the Superheroes is a card game based on "War".
+                Superheroes are ranked initially and each player picks a card
+                and the card with the highest rank wins the round.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://perkea.github.io/battle-of-the-superheroes/"
+                >This is a link</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card medium" style="height: 500px">
+            <div class="card-image">
+              <img src="/assets//css/images/cake.jpg" />
+              <span class="card-title">Piece Of Cake</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+                Piece of Cake is a recipe manager application where users can
+                create an account and add, edit and delete recipes.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="http://piece-of-cake1.herokuapp.com/login"
+                >This is a link</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card medium" style="height: 500px">
+            <div class="card-image">
+              <img src="/assets//css/images/coco.jpeg" />
+              <span class="card-title">Lights Out</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+                Lights out is a website for a user to browse from a list of
+                movies to choose for movie night. It also allows the user to
+                write reviews on a movie.
+              </p>
+            </div>
+
+            <div class="card-action">
+              <a href="https://lights-out-p3.netlify.app/">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card medium" style="height: 500px">
+            <div class="card-image">
+              <img src="/assets//css/images/techtalk.jpg" />
+              <span class="card-title">Tech Talk</span>
+            </div>
+            <div class="card-content black-text">
+              <p>A blogging website for all the techies of the world</p>
+            </div>
+            <div class="card-action">
+              <a href="https://tech-talk-v2.herokuapp.com/">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <script>
+      window.onload = function () {
+        document.body.classList.remove("is-preload");
+      };
+      window.ontouchmove = function () {
+        return false;
+      };
+      window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+      };
+    </script>
+  </body>
+</html>

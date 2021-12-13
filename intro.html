@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+<head>
+    <title>Untitled</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper" style="background-image: url('/assets/css/images/intro.jpeg');">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+    
+        <nav style = 'background-color: black;'>
+            <div class="nav-wrapper">
+
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html" style="color:palevioletred;font-weight: bold;">Main Page</a></li>
+                    <li><a href="portfolio.html" style="color:palevioletred;font-weight: bold;">Portfolio</a></li>
+                    <li><a href="skills.html" style="color:palevioletred;font-weight: bold;">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="stuff">
+            <article class="active" style="background-color:rgb(140, 36, 140); border: slateblue; box-shadow: slateblue;">
+                <h2 class="major">About Me</h2>
+                <p>
+                    I am hard working, team-centric, highly driven individual with a clear set of goals.
+                    I do my best work in very complicated systems, because I’m good at keeping track of many details and
+                    making few mistakes. I want to do this sort of work moving forward, especially as long as I get to
+                    work on something lots of people will use!”
+
+
+                </p>
+
+            </article>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <span class="copyright">&copy;Keara Pereira</span>
+    </footer>
+
+    </div>
+
+    </div>
+
+
+    <script>
+        window.onload = function () {
+            document.body.classList.remove('is-preload');
+        }
+        window.ontouchmove = function () {
+            return false;
+        }
+        window.onorientationchange = function () {
+            document.body.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
