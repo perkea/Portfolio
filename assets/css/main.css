@@ -1233,25 +1233,27 @@ input, select, textarea {
 .stuff article{
 	/* width: 40rem; */
 	max-width: 100%;
-	border: 15px solid grey;
-	padding: 50px;
-	margin: 20px;
+	/* border: 15px solid grey; */
+	/* padding: 50px;
+	margin: 20px; */
 	position: relative;
 	background-color: rgba(27, 31, 34, 0.85);
-	border-radius: 4px;
-	margin-top: 105px;
+	/* margin-top: 105px;
 	margin-right: 100px;
-	margin-left: 247px;
+	margin-left: 247px; */
 	
 }
 
 .stuff article.active{
 	transform: translateY(0);
 	opacity: 1;
+	box-shadow: 12px 12px 14px 0 black;
+	border-radius: 50px;
 
 }
 article {
 	display: block;
+	
 }
 
 
