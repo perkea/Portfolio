@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+<head>
+    <title>Untitled</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper" style="background-image: url('/assets/css/images/intro.jpeg');">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <nav style='background-color: black;'>
+                <div class="nav-wrapper">
+
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="index.html" style="color:palevioletred;font-weight: bold;">Main Page</a></li>
+                        <li><a href="portfolio.html" style="color:palevioletred;font-weight: bold;">Portfolio</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Header -->
+            <header id="header">
+                <h1>Keara Pereira</h1>
+<div class = "container" style = "width: 85%; margin: 0 auto;max-width: 1280px;">
+    <form name="contact" netlify>
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
+
+</div>
+
+
+
+                <div class="stuff">
+                    <article class="active" style="background-color:rgb(140, 36, 140); border: slateblue; box-shadow: slateblue;">
+                        <form name="contact" netlify>
+                            <p>
+                              <label>Name <input type="text" name="name" /></label>
+                            </p>
+                            <p>
+                              <label>Email <input type="email" name="email" /></label>
+                            </p>
+                            <p>
+                                <label>Message: <textarea name="message"></textarea></label>
+                            </p>
+                            <p>
+                              <button type="submit">Send</button>
+                            </p>
+                          </form>
+        
+                    </article>
+        
+                </div>
+
+
+                </div>
+                   
+
+            </header>
+        </div>
+
+
+        <script>
+            window.onload = function () {
+                document.body.classList.remove('is-preload');
+            }
+            window.ontouchmove = function () {
+                return false;
+            }
+            window.onorientationchange = function () {
+                document.body.scrollTop = 0;
+            }
+        </script>
+</body>
+
+</html>
