@@ -1231,7 +1231,7 @@ input, select, textarea {
 			}
 
 .stuff article{
-	width: 40rem;
+	/* width: 40rem; */
 	max-width: 100%;
 	border: 15px solid grey;
 	padding: 50px;
